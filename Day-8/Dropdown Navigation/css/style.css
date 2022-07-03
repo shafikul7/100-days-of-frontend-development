@@ -1,7 +1,65 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style-type: none;
+}
+html {
+  text-decoration: none;
+}
+body {
+  min-height: 100hv;
+  background: url(../img/Motivational-Wallpaper-08-1920x1200.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 20px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+header .logo {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #333;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  position: relative;
+  float: left;
+}
+header ul li a {
+  font-size: 20px;
+  padding: 20px;
+  color: #333;
+  display: block;
+}
+header ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+header ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: #fff;
+}
+
+header ul li ul li {
+  width: 100%;
+  border-top: 1px solid rgb(1, 1, 1);
 }
