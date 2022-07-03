@@ -56,10 +56,67 @@ header ul li ul {
   position: absolute;
   left: 0;
   width: 200px;
-  background: #fff;
+  background: rgb(255, 255, 255);
+  display: none;
 }
 
 header ul li ul li {
   width: 100%;
   border-top: 1px solid rgb(1, 1, 1);
+}
+
+header ul li ul li ul {
+  left: 200px;
+  top: 0;
+}
+header ul li:focus-within > ul,
+header ul li:hover > ul {
+  display: initial;
+  /* display:inline; */
+}
+
+#menu-bar {
+  display: none;
+}
+
+header label {
+  font-size: 20px;
+  color: #333;
+  display: none;
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 20px;
+  }
+  header label {
+    display: initial;
+  }
+
+  header nav {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid rgb(108, 88, 160);
+  }
+  header ul li {
+    width: 100%;
+  }
+  header ul li ul {
+    position: relative;
+    width: 100%;
+  }
+  header ul li ul li {
+    background: #eee;
+  }
+  header ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+  #menu-bar:checked ~ nav {
+    display: initial;
+  }
 }
