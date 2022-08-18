@@ -1,3 +1,6 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@100;400;500;900&display=swap");
+
 :root {
   --primary: #29e9bc;
   --normal: #ffffff;
@@ -9,4 +12,32 @@
   --container-width-lg: 80%;
   --container-width-md: 90%;
   --container-width-sm: 94%;
+}
+
+/* Universal Selector */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-offset: none;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.5s linear;
+  scroll-behavior: smooth;
+}
+/* Custom scrollbar style */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--normal);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--black);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--danger);
 }
