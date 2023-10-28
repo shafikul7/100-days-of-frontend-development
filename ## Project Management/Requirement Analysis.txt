@@ -1,0 +1,43 @@
+Requirement Analysis For E-Commerce Projects
+
+E-Commerce – A platform that has revolutionized the way we shop.
+
+From clothing merchandize to grocery items, almost all our daily requirements are now met by such platforms. Such an application plays a crucial role in many businesses these days. 
+
+For an e-commerce project, the main business requirement is the same – A user comes to the platform and purchases products. The challenge for a business analyst is to visualize all the processes in between. The scope of an e-commerce application is large. At the micro level, the requirements can vary depending on the nature of the products being sold. At the macro level, a business analyst can make an outline of the following requirements – business and functional that hold true for a majority e-commerce platforms. A checklist can include the following pointers:
+
+1. User Actions On The Website
+What all actions can a user perform on the website besides making a purchase? These include:
+
+Searching for products on the home page or throughout the website and on what basis. Products can be searched on the basis of product name, categories, brands etc.
+Sorting products based on the filters provided. Which filters need to be placed? For clothes these can be colours, sizes and types. For grocery these can be fruits, vegetables, frozen foods and dairy products. For health insurance products these can be age group, premium limit, waiting period, maternity cover etc.
+Adding products to a wish-list. If these products can indefinitely remain in the wish list till their respective stocks last or can remain for a definite period of time.
+Making use of available promotional offers and discounts and the business logics behind them.
+Creating an account. Is an account mandatory for making a purchase? Is buying as a guest user an option?
+
+
+2. Admin Console
+This is an important module of any e-commerce application. A business analyst should clearly determine the aspects that an admin can control from the backend. These include:
+
+Product Management – All the metadata of the products – Product images, description, seller information, prices etc. Admin should be able to manage this data i.e. add, remove and edit a product.
+Content management – The design aspect of the website i.e. the static pages a user sees at the front end. It’s important to create an attractive and effective website to attract and retain traffic. The answers that a business analyst should seek here are – How will these pages be maintained? Will these pages be uploaded or a provision has to be made for the admin user such that pages are created through the system?
+Master Management – Besides the product data, there are other masters that need to be managed at the back end. Country, State and city masters, seller masters etc. are just a few examples. For instance pin code masters help in extracting a city when the user enters the pin code while adding the shipping address.
+Admin should be able to carry out promotional activities. Admin user should be able to create promo codes and offers as per the business requirements. 
+
+3. Inventory And Logistics Management And Order Fulfilment
+Remember how we add some products to our wish lists and when it’s time to buy them, some of the products go out of stock. Or the time when a sale is announced at mid-night but you log in early morning only to see that the products in sale were brought overnight. We have all been through such times. At the backend, this management is crucial to keep the website up to date with the latest numbers. Whether new products are added, products are returned or exchanged, dispatched, all the logistics and stock details should be maintained in a robust system. Additionally once the products are purchased, some businesses require fulfilment systems that can be used by the dispatch and customer services teams. A business analyst should capture all the business requirements around this piece.
+
+
+4. User Checkout And Payment
+Generally users can check out as registered users or as guest users. An option of creating a new account is also available. Some businesses require customers to make an account in order to place orders. The information required to create an account needs to be considered.
+Payment options can vary – Cash on Delivery, E-Wallets, 3rd Party Payment Gateways. Vendors are selected as per the requirement of the business.
+The shipping charges and methods. These can be either maintained at the backend or made static.
+
+5. Promo Code Application
+It’s important for a business analyst to clarify the application area of these codes. At what point of the user journey can a user apply a promo code?
+
+6. Mailers
+Automated mails are triggered to customers on a majority of actions – when an order is placed, when an order is returned or an exchange request is placed, when complaints are logged, when new accounts are created, etc. Besides the standard practices, promotional campaigns are also run. Requirements should capture the mails to be sent for every action and the content for each mailer.
+
+7. Reports
+Analytics is an integral part of e-commerce in today’s date. A lot of third party tools are used by businesses to curate reports that’ll help the businesses to make informed decisions and plan further actions. The type of reports should be added to the business requirements.
