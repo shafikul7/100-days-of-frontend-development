@@ -1,1 +1,1 @@
-# 100-days-of-frontend-development
+# 100 Days frontend-development project
